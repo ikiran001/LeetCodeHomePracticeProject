@@ -7,7 +7,6 @@ public class Maze {
 	public static void main(String[] args) {
 		System.out.println(count(4, 4));
 		path("", 3, 3);
-
 	}
 
 	public static int count(int r , int c) {

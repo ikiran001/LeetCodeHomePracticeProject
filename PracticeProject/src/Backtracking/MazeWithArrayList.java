@@ -10,7 +10,7 @@ public class MazeWithArrayList {
 
 	}
 
-	public static List<String> pathReturn(String p, int r, int c){ggds\\\\g 	
+	public static List<String> pathReturn(String p, int r, int c){	
 		if(r==1 && c==1) {
 			List<String> list=new ArrayList<>();
 			list.add(p);
