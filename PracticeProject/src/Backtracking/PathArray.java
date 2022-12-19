@@ -6,10 +6,10 @@ public class PathArray {
 
 	public static void main(String[] args) {
 		boolean [][] arr={{true,true,true},
-				{true,true,false},
-				{true,true,true}};
+				{true,true,true}
+				,{true,true,true}};
 
-		int[][] path =new int[arr.length-1][arr[0].length-1];
+		int[][] path =new int[arr.length][arr[0].length];
 
 		path("", arr, path, 0, 0, 1);
 
@@ -18,6 +18,7 @@ public class PathArray {
 	public static void path(String p, boolean[][] arr, int[][] path, int c, int r , int step) {
 
 		if(r==arr.length-1 && c==arr[0].length-1) {
+			path[r][c]=step;
 			for(int[] arrr: path) {
 				System.out.println(Arrays.toString(arrr));
 			}
