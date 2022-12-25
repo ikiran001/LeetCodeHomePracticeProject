@@ -9,7 +9,7 @@ public class SuSeqsameNumber {
 	public static void main(String[] args) {
 		
 		
-		int [] arr= {1,2,2};
+		int [] arr= {1,2,3};
 		List<List<Integer>> ans=subSet(arr);
 		
 		for(List<Integer> list: ans) {
