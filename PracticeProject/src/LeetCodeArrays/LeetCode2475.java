@@ -3,7 +3,7 @@ package LeetCodeArrays;
 public class LeetCode2475 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 	}
 
