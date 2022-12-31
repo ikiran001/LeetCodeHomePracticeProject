@@ -3,14 +3,15 @@ package DSLinkedList;
 public class Main {
 
 	public static void main(String[] args) {
-//	LL list=new LL();
-//	
-//	list.insertAtFirst(12);
-//	list.insertAtFirst(22);
-//		list.insertAtFirst(24);
-//		list.insertAtFirst(24);
-//		list.insertAtFirst(2);
-//		list.display();
+	LL list=new LL();
+     	list.insertAtFirst(12);
+        list.insertAtFirst(22);
+		list.insertAtFirst(24);
+		// list.insertRec(10, 3);
+		list.insertAtFirst(24);
+		list.insertAtFirst(2);
+	   
+     	list.display();
 //		System.out.println(list.get(4));
 //		list.display();
 		
@@ -29,14 +30,14 @@ public class Main {
 //		list.display();
 		
 		
-		DSDoublylinkedList list=new DSDoublylinkedList();
-		list.insertAtFirst(13);
-		list.insertAtFirst(14);
-		list.insertAtFirst(15);
-		list.insertAtFirst(13);
-	list.insertAtFirst(15);
-	//	list.display();
-	list.displayReverse();
+//		DSDoublylinkedList list=new DSDoublylinkedList();
+//		list.insertAtFirst(13);
+//		list.insertAtFirst(14);
+//		list.insertAtFirst(15);
+//		list.insertAtFirst(13);
+//	list.insertAtFirst(15);
+//	//	list.display();
+//	list.displayReverse();
 //		list.inserAtLast(55);
 //		list.insert(15, 500);
 //		list.displayReverse();
