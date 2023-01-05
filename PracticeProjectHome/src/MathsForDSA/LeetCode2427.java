@@ -2,16 +2,17 @@ package MathsForDSA;
 
 import java.util.ArrayList;
 
+
 //https://leetcode.com/problems/number-of-common-factors/
 //2427. Number of Common Factors
 public class LeetCode2427 {
 
 	public static void main(String[] args) {
-
  
 	}
     
     public static int factors(int n) {
+    
 		ArrayList<Integer> list=new ArrayList<>();
 		for (int i = 1; i <=Math.sqrt(n); i++) {
 			if(n%i==0) {
