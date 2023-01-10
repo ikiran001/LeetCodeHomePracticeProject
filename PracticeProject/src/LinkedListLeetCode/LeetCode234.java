@@ -29,6 +29,8 @@ public class LeetCode234 {
 		}
 		
 		
+		
+		
 		public boolean isPalindrome(ListNode head) {
 			ListNode mid=mid(head);
 			ListNode head2=reverse(mid);
@@ -41,10 +43,11 @@ public class LeetCode234 {
 				head=head.next;
 				head2=head2.next;
 			}
-			
 			reverse(reversehead);
 			return (head==null || head2==null);
 		}
+		
+		
 
 		public ListNode mid(ListNode head) {
 			ListNode s=head;
