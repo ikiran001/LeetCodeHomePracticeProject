@@ -1,42 +1,34 @@
 package LeetCodeArrays;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class LeetCode26 {
 
 	public static void main(String[] args) {
-	int[] arr= {0,0,1,1,1,2,2,3,3,4};
-	System.out.println(removeDuplicates(arr));
+		int[] arr= {0,0,1,1,2,2,2,3,3,4};
+		cyclicSort(arr);
+		System.out.println(Arrays.toString(arr));
 
 	}
-	
-	  public static int removeDuplicates(int[] nums) {
-		  
-	        List<Integer> list=new ArrayList<>();
-	        for (int i = 0; i < nums.length; i++) {
-	        	int count=0;
-				for (int j = i; j < nums.length; j++) {
-					if(nums[i]==nums[j]) {
-						count++;
-						if(count>=2) {
-							list.add(nums[i]);
-							break;
-						}
-					}
-				}
+
+	static int cyclicSort(int [] nums) {
+		int i=0;
+		while(i<nums.length) {
+			int correct=nums[i]-1;
+			if(nums[i]!=nums[correct]) {
+				swap(nums,i,correct);
 			}
-	        int i=0;
-	        while (i<nums.length) {
-				if(list.contains(nums[i])) {
-					i++;
-				}
-				else {
-					list.add(nums[i]);
-					i++;
-				}
+			else {
+				i++;
 			}
-	        return list.size();
-	    }
+		}
+		return nums.length;
+	}	
+	static void swap(int[] nums, int first, int second) {
+		int temp=nums[first];
+		nums[first]=nums[second];
+		nums[second]=temp;
+
+	}
 
 }
