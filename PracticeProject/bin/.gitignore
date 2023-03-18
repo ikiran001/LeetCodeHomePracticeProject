@@ -1,12 +1,12 @@
-/BitwiseOperator/
-/LeetCodeArrays/
 /Backtracking/
 /BinarySearch/
+/BitwiseOperator/
 /DSLinkedList/
 /HackerRank/
 /HashMapsLeetCode/
 /Interface/
 /InterviewPreperation/
+/LeetCodeArrays/
 /LeetCodeRecursion/
 /LeetCodeStrings/
 /LinearSearch/
@@ -17,3 +17,9 @@
 /RecursionGoogleIntrviewQns/
 /RecursionSubSetSubSequesnce/
 /Stack/
+/SortingAlgorithm.class
+/SelectionSort.class
+/BubbleSort.class
+/InsertionSort.class
+/CyclicSort.class
+/MErgeSort.class
