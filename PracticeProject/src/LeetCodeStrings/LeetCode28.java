@@ -5,31 +5,14 @@ public class LeetCode28 {
 	public static void main(String[] args) {
 		String haystack="mississippi";
 		String needle="issip";
-		System.out.println(strStr2(haystack, needle));
-
+		System.out.println(strStr(haystack, needle));
 	}
+	
 	public static int strStr(String haystack, String needle) {
-
-
-		if(haystack.contains(needle)) {
+		String  a=haystack;
+		if(haystack.substring(0, needle.length()).contains(needle)) {
 			return haystack.indexOf(needle.charAt(0));
 		}
-		else return -1;
+		return strStr(a.substring(1), needle);
 	}
-
-
-	public static String strStr2(String haystack, String needle) {
-		if(haystack.isEmpty()) {
-			return "";
-		}
-		char ch=haystack.charAt(0);
-		if(haystack.startsWith(needle)) {
-			return strStr2(haystack.substring(needle.length()), needle);
-		}
-		else {
-			return ch+ strStr2(haystack.substring(1), needle);
-		}
-
-	}
-
 }
