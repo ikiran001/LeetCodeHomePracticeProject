@@ -7,7 +7,7 @@ public class LArgestPalindrome {
 	static int resultLength;
 
 	public static void main(String[] args) {
-		String a="asddsaasdfghgfdsaasdfghjklkjhgfdsa";
+		String a="abcddcbaasdfghjkllkjhgfdsa";
 		System.out.println(isLargPali(a));
 	}
 

@@ -5,11 +5,9 @@ public class LeetCode2221 {
 	public static void main(String[] args) {
 		int[] arr= {1,2,3,4,5};
 		System.out.println(triangularSum(arr));
-
 	}
 
 	public static int triangularSum(int[] nums) {
-
 		if(nums.length==1) {
 			return nums[0];
 		}
@@ -19,9 +17,6 @@ public class LeetCode2221 {
 			arr[j]=(nums[i]+nums[i+1])%10;
 			j++;
 		}
-		
 		return triangularSum(arr);
-		
 	}
-
 }

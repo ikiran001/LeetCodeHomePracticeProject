@@ -11,17 +11,16 @@ public class LeetCode1347 {
 		String a="aba";
 		String t="bab";
 		System.out.println(minSteps(a, t));
-
 	}
 
 
 	public static int minSteps(String s, String t) {
+	
 		int c=0;
 		Map<Character, Integer>map=new HashMap<>();
 		for(char a: s.toCharArray()) {
 			map.put(a, map.getOrDefault(a, 0)+1);
 		}
-
 		for (int i = 0; i < t.length(); i++) {
 			char b=t.charAt(i);
 			if(map.containsKey(b)) {
@@ -30,7 +29,6 @@ public class LeetCode1347 {
 				else {c++;}
 			}
 			else{c++;}}
-
 		return c;	
 
 	}
