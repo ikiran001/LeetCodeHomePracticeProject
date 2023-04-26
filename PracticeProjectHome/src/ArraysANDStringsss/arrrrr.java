@@ -11,7 +11,7 @@ public class arrrrr {
 	
 	public static void reverseArray(int [] arr) {
 		List<Integer> list=new LinkedList<>();
-		
+		//ads
 		for (int i = 0; i < 10; i++) {
 			list.add(i);
 		}
