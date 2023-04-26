@@ -5,7 +5,7 @@ package Backtracking;
 public class Maze {
 
 	public static void main(String[] args) {
-		System.out.println(count(4, 4));
+		//System.out.println(count(4, 4));
 		path("", 3, 3);
 	}
 

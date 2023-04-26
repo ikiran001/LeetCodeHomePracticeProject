@@ -17,7 +17,7 @@ public class MazeWithArrayList {
 			return list;
 		}
 
-		List<String> ans=new ArrayList<>();
+		List<String> ans=new ArrayList<>(); 
 		if(r>1) {
 			ans.addAll(pathReturn(p+'D', r-1, c));
 		}

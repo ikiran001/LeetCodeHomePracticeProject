@@ -1,13 +1,34 @@
+<<<<<<< HEAD:PracticeProjectHome/bin/.gitignore
 /HashMapsTutorial/
+=======
+/Backtracking/
+/BinarySearch/
+/BitwiseOperator/
+/BubbleSort.class
+/CyclicSort.class
+/DSLinkedList/
+/HackerRank/
+/HashMapsLeetCode/
+/InsertionSort.class
+/Interface/
+/InterviewPreperation/
+>>>>>>> e5c1a54a61200bee462c15ef9e6bbbf5d0f2a1bc:PracticeProject/bin/.gitignore
 /LeetCodeArrays/
 /LeetCodeHArddddddd/
 /LeetCodeRecursion/
 /LeetCodeStrings/
 /LinearSearch/
+/LinkedListLeetCode/
+/MErgeSort.class
 /MathsForDSA/
 /Permutation/
 /PracticeTrial/
 /RecursionGoogleIntrviewQns/
 /RecursionSubSetSubSequesnce/
+<<<<<<< HEAD:PracticeProjectHome/bin/.gitignore
 /Sudoku/
 /ArraysANDStringsss/
+=======
+/SelectionSort.class
+/Stack/
+>>>>>>> e5c1a54a61200bee462c15ef9e6bbbf5d0f2a1bc:PracticeProject/bin/.gitignore
