@@ -11,7 +11,7 @@ public class LeetCode1047 {
 	public static String removeDuplicates(String s) {
 		String ans="";
 		Stack<Character> st=new Stack<>();
-		for(char c:s.toCharArray()) {
+		for(char c:s.toCharArray()) {	
 			if(!st.isEmpty() && st.peek()==c) {
 				st.pop();
 			}

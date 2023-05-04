@@ -11,11 +11,7 @@ public class LeetCode1512 {
 
 	public static void main(String[] args) {
 		int[]	nums = {1,1,1,1};
-<<<<<<< HEAD:PracticeProjectHome/src/LeetCodeArrays/LeetCode1512.java
-		System.out.println(numIdenticalPairs(nums));
-=======
-		System.out.println(numIdenticalPairs(nums)); 
->>>>>>> e5c1a54a61200bee462c15ef9e6bbbf5d0f2a1bc:PracticeProject/src/LeetCodeArrays/LeetCode1512.java
+
 
 	}
 	static  int numIdenticalPairs(int[] nums) {
