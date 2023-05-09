@@ -20,7 +20,7 @@ public class LeetCode1047 {
 			}
 		}
 		
-		for(char c:st) {
+		for(char c:st) {	
 			ans+=c;
 		}
 		return ans;
